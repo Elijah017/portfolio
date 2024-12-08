@@ -1,0 +1,31 @@
+{{ define "base" }}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Elijah Mullens - {{ template "title" . }}</title>
+
+        <meta http-equiv="content-language" content="en">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Elijah Mullens">
+        <meta name="creator" content="Elijah Mullens">
+        <meta name="keywords" content="portfolio, software engineer, systems engineer, backend engineer, full-stack engineer, linux, DevOps, platform engineer, engineer">
+        <meta name="description" content="A portfolio website describing my abilities as a software engineer who specialises in systems engineering, backend programming, and unix based DevOps/Platforms">
+        <meta name="robots" content="index, follow">
+
+        <link rel="stylesheet" href="/static/css/base.css">
+        <script src="/static/js/base.js" defer></script>
+
+        {{ block "extend_head" . }}{{ end }}
+    </head>
+
+    <body>
+        <nav>
+            <div class="nav-pages">
+                <span class="nav-brand">Elijah Mullens</span>
+            </div>
+        </nav>
+        <main>{{ template "content" . }}</main>
+    </body>
+</html>
+{{ end }}

@@ -1,2 +1,2 @@
-fileserver
-build/*
+/dist/*
+/bin/*

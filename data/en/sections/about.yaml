@@ -8,17 +8,23 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Junior Software Developer
+designation: Computer Science Student
 # your company information
-# company:
-#   name: The University of Western Australia
-#   url: "https://www.uwa.edu.au"
+company:
+  name: The University of Western Australia
+  url: "https://www.uwa.edu.au/"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+summary: >
+  I getting close to the completion of my degree, June 2025, and am looking for
+  more opportunities to gain experience and grow. During studying, I was given
+  the opportunities to gain experience in; operating systems, data warehouses,
+  computer networks, and even super computers. Moving into the professional
+  world, I'm seeking opportunities to gain more experience in backend and
+  platform technologies.
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -44,30 +50,29 @@ socialLinks:
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
   - type: soft-skill-indicator
-    name: Leadership
-    percentage: 90
-    color: blue
-
-  - type: soft-skill-indicator
     name: Linux
     percentage: 90
     color: yellow
 
   - type: soft-skill-indicator
-    name: System Architecture
-    percentage: 80
-    color: orange
+    name: Bash
+    percentage: 85
+    color: "#D44AC6"
 
-  # you can also provide color code instead of the color name
   - type: soft-skill-indicator
     name: C/C++
     percentage: 80
     color: "#00adb5"
 
   - type: soft-skill-indicator
-    name: HTML/CSS
-    percentage: 75
-    color: "#D44AC6"
+    name: Python
+    percentage: 80
+    color: orange
+
+  - type: soft-skill-indicator
+    name: SQL
+    percentage: 80
+    color: blue
 
   - type: soft-skill-indicator
     name: JavaScript/TypeScript

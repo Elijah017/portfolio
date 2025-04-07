@@ -1,0 +1,36 @@
+section:
+  name: Experience
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+
+experiences:
+  - company:
+      name: CBH Group
+      url: https://www.cbh.com.au/
+      location: Perth, Western Australia
+      logo: /images/cbh-logo.png
+    positions:
+      - designation: Business Systems Intern
+        start: Nov 2023
+        end: Mar 2024
+        responsibilities:
+          - Migrate server code to cloud functions
+  - company:
+      name: UWA Capstone
+      url: https://www.uwa.edu.au/
+      location: Perth, Western Australia
+    positions:
+      - designation: Project Manager
+        start: Jul 2024
+        end: Oct 2024
+        responsibilities:
+          - Organise and Document Meetings
+      - designation: Platform Engineer
+        start: Jul 2024
+        end: Oct 2024
+        responsibilities:
+          - Configure AWS Lightsail Server
+          - Setup DevOps Automated Deployment Pipeline
+
